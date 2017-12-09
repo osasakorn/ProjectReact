@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-
+import { Button, Header, Icon, Image, Modal } from 'semantic-ui-react'
+import Register from '../../Component/Register/register';
+import Login from '../../Component/Login/login';
 import './navbar.css';
 //import '../../styles/semantic.min.css'
 
@@ -9,15 +11,17 @@ class Navbar extends Component {
             <div className="Navbar">
                 <div class="ui small menu">
                     <a class=" item" href='/'>Home</a>
-                    <a  class="item" href='/news'>News</a>
-                    <a  class="item" href='/sender'>Sender</a>
-                    <a  class="item" href='/receiver'>Receiver</a>
+                    <a class="item" href='/news'>News</a>
+                    <a class="item" href='/sender'>Sender</a>
+                    <a class="item" href='/receiver'>Receiver</a>
+                    <a class="item" href='/manage'>Manage</a>
                     <div class="right menu">
                         <div class="item">
-                            <button class="ui  button" role="button"><a href="/login">Sign In</a></button>
+                            <Login/>
                         </div>
+
                         <div class="item">
-                            <button class="ui  button" role="button"><a href="/register">Sign Up</a></button>
+                            <Register />
                         </div>
                     </div>
                 </div>
