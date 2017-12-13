@@ -4,18 +4,18 @@ import Footer from '../../Component/Footer/footer';
 import Navbar from '../../Component/Navbar/navbar';
 
 import '../../styles/semantic.min.css'
-import './sender.css';
+import './register.css';
 
-class Sender extends Component {
+class Register extends Component {
   render() {
     return (
-      <div className="sender">
+      <div className="register">
         <Navbar />
         <br />
         <div>
           <h2 class="ui icon center aligned header">
-            <i aria-hidden="true" class="write circular icon"></i>
-            <div class="content">SENDER</div>
+            <i aria-hidden="true" class="users circular icon"></i>
+            <div class="content">REGISTER</div>
           </h2>
         </div>
 
@@ -150,4 +150,4 @@ These terms and/or your use of the website shall be governed by and construed in
     );
   }
 }
-export default Sender;
+export default Register;

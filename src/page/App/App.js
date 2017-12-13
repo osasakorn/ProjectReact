@@ -11,7 +11,9 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <div class="ui centered billboard test ad" data-text="Sharing Hearts"></div>
+        <div class="ui centered billboard test ad" data-text="">
+          <img src="http://cdn.goodshomedesign.com/wp-content/uploads/2013/02/pile-of-paper-hearts.jpg" />
+      </div>
         <div class='body'>
           <div>
             <div class="ui top attached tabular menu">
@@ -24,7 +26,7 @@ class App extends Component {
             words etc.</p></div>
           </div>
           <div class="ui segment">
-            <img class="ui small left floated image" src="/assets/images/wireframe/image-text.png" />
+            <img class="ui small left floated image" src="http://cdn.goodshomedesign.com/wp-content/uploads/2013/02/pile-of-paper-hearts.jpg" />
             <p>Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque electram, eos choro alterum definiebas in.
               Vim dolorum definiebas an. Mei ex natum rebum iisque.</p>
             <img class="ui small right floated image" src="/assets/images/wireframe/image-text.png" />

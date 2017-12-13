@@ -15,9 +15,10 @@ class Navbar extends Component {
                     <a class="item" href='/sender'>Sender</a>
                     <a class="item" href='/receiver'>Receiver</a>
                     <a class="item" href='/manage'>Manage</a>
+                    <a class="item" href='/register'>Register</a>
                     <div class="right menu">
                         <div class="item">
-                            <Login/>
+                            <Login />
                         </div>
 
                         <div class="item">

@@ -7,92 +7,97 @@ import { Button, Header, Icon, Image, Modal } from 'semantic-ui-react'
 
 const ModalExampleScrollingContent = () => (
     <Modal trigger={<Button>Sign Up</Button>}>
+        <Modal.Actions>
+            <Button>
+                <Icon name='close' />
+            </Button>
+        </Modal.Actions>
 
         <Modal.Content scrolling>
-           
-                <div className="register">
-                    <br />
-                    <div class="ui grid">
-                        <div class="four wide column">
+
+            <div className="register">
+                <br />
+                <div class="ui grid">
+                    <div class="four wide column">
+                    </div>
+                    <div class="eight wide column">
+                        <div>
+                            <h2 class="ui icon center aligned header">
+                                <i aria-hidden="true" class="users circular icon"></i>
+                                <div class="content">REGISTER</div>
+                            </h2>
                         </div>
-                        <div class="eight wide column">
-                            <div>
-                                <h2 class="ui icon center aligned header">
-                                    <i aria-hidden="true" class="users circular icon"></i>
-                                    <div class="content">REGISTER</div>
-                                </h2>
+                        <form class="ui form">
+
+                            <div class="field">
+                                <div class="required field">
+                                    <label>Username</label>
+                                    <div class="ui input">
+                                        <input type="text" placeholder="Username" />
+                                    </div>
+                                </div>
                             </div>
-                            <form class="ui form">
+                            <div class="field">
+                                <div class="required field">
+
+                                    <label>Password</label>
+                                    <div class="ui input">
+                                        <input type="text" placeholder="Password" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="field">
+                                <div class="required field">
+                                    <label>First Name</label>
+                                    <div class="ui input">
+                                        <input type="text" placeholder="First Name" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="required field">
+                                    <label>Last Name</label>
+                                    <div class="ui input">
+                                        <input type="text" placeholder="Last Name" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="field">
+                                <div class="required field">
+                                    <label>Address</label>
+                                    <div class="ui input">
+                                        <input type="text" placeholder="Address" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="two fields">
+                                <div class="field">
+                                    <div class="required field">
+                                        <label>Email</label>
+                                        <div class="ui input">
+                                            <input type="text" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <div class="field">
                                     <div class="required field">
-                                        <label>Username</label>
+                                        <label>Phone</label>
                                         <div class="ui input">
-                                            <input type="text" placeholder="Username" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <div class="required field">
-
-                                        <label>Password</label>
-                                        <div class="ui input">
-                                            <input type="text" placeholder="Password" />
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="field">
-                                    <div class="required field">
-                                        <label>First Name</label>
-                                        <div class="ui input">
-                                            <input type="text" placeholder="First Name" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <div class="required field">
-                                        <label>Last Name</label>
-                                        <div class="ui input">
-                                            <input type="text" placeholder="Last Name" />
+                                            <input type="text" placeholder="Phone" />
                                         </div>
                                     </div>
                                 </div>
 
-
-                                <div class="field">
-                                    <div class="required field">
-                                        <label>Address</label>
-                                        <div class="ui input">
-                                            <input type="text" placeholder="Address" />
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="two fields">
-                                    <div class="field">
-                                        <div class="required field">
-                                            <label>Email</label>
-                                            <div class="ui input">
-                                                <input type="text" placeholder="Email" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="field">
-                                        <div class="required field">
-                                            <label>Phone</label>
-                                            <div class="ui input">
-                                                <input type="text" placeholder="Phone" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="field">
-                                    <textarea readonly="">Welcome to the registration to Sharing Ours Heart website and its related services. You may access many areas of our website without registering your details with us. Certain areas are only open to you if you register. The terms and conditions which govern material submitted by you to us and your use of the www.telegraph.co.uk website (including all 'Telegraph' branded microsites and any email bulletins) are governed by our general "Terms and Conditions of Reading". These Terms and Conditions of Registration are in addition to the general Terms and Conditions of Reading.
+                            </div>
+                            <div class="field">
+                                <textarea readonly="">Welcome to the registration to Sharing Ours Heart website and its related services. You may access many areas of our website without registering your details with us. Certain areas are only open to you if you register. The terms and conditions which govern material submitted by you to us and your use of the www.telegraph.co.uk website (including all 'Telegraph' branded microsites and any email bulletins) are governed by our general "Terms and Conditions of Reading". These Terms and Conditions of Registration are in addition to the general Terms and Conditions of Reading.
 1.
 Registration
 1.1
@@ -129,22 +134,22 @@ These terms are not intended to create and shall not create any rights, entitlem
 These terms and/or your use of the website shall be governed by and construed in accordance with English law and the English Courts shall have exclusive jurisdiction over any dispute which may arise.
 
               </textarea>
+                            </div>
+                            <div class="field">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="hidden" readonly="" tabindex="0" />
+                                    <label>I agree to the Terms and Conditions</label>
                                 </div>
-                                <div class="field">
-                                    <div class="ui checkbox">
-                                        <input type="checkbox" class="hidden" readonly="" tabindex="0" />
-                                        <label>I agree to the Terms and Conditions</label>
-                                    </div>
-                                </div>
-                                <button type="submit" class="ui button" role="button">Submit</button>
-                            </form>
-                        </div>
+                            </div>
+                            <button type="submit" class="ui button" role="button">Submit</button>
+                        </form>
                     </div>
-                    <div class="four wide column">
-                    </div>
-                    <br />
-
                 </div>
+                <div class="four wide column">
+                </div>
+                <br />
+
+            </div>
         </Modal.Content>
         <Modal.Actions>
             <Button primary>

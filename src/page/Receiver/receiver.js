@@ -19,6 +19,7 @@ class Receiver extends Component {
           <div class="column">
             <div>
               <div class="ui segment">
+                <img class="ui image" src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                 <img class="ui image" src="/assets/images/wireframe/paragraph.png" />
                 <img class="ui image" src="/assets/images/wireframe/paragraph.png" />
                 <img class="ui image" src="/assets/images/wireframe/paragraph.png" />
@@ -33,7 +34,7 @@ class Receiver extends Component {
                 <img class="ui image" src="/assets/images/wireframe/paragraph.png" />
                 <img class="ui image" src="/assets/images/wireframe/paragraph.png" />
                 <img class="ui image" src="/assets/images/wireframe/paragraph.png" />
-                <img class="ui image" src="/assets/images/wireframe/paragraph.png" />
+               
                 <div class="ui left rail">
                   <div>
                     <div>
@@ -42,7 +43,7 @@ class Receiver extends Component {
                       <div class="ui divided items">
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -51,7 +52,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -60,7 +61,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -69,7 +70,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -78,7 +79,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -87,7 +88,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -96,7 +97,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -105,7 +106,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -114,7 +115,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -123,7 +124,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -132,7 +133,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -141,7 +142,7 @@ class Receiver extends Component {
                         </div>
                         <div class="item">
                           <div class="ui tiny image">
-                            <img src="/assets/images/wireframe/image.png" />
+                            <img src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                           </div>
                           <div class="content">
                             <a class="header">Followup Article</a>
@@ -158,7 +159,7 @@ class Receiver extends Component {
                     </div>
                     <div>
                       <h3 class="ui header">Stuck Content</h3>
-                      <img class="ui image" src="/assets/images/wireframe/image.png" />
+                      <img class="ui image" src="https://rachelandrew.co.uk/perch/resources/sb3-smashing-book-3-redesign-the-web1.png" />
                     </div>
                   </div>
                 </div>
